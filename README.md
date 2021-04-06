@@ -1,2 +1,2 @@
 # TrabalhoWeb
-Trabalho da disciplina Web
+Trabalho da disciplina de Sistemas Web 1. 

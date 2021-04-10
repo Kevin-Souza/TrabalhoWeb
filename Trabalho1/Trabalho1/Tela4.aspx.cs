@@ -13,5 +13,10 @@ namespace Trabalho1
         {
 
         }
+
+        protected void btnCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

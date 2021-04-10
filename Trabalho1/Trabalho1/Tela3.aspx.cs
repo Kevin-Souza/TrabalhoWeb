@@ -16,17 +16,22 @@ namespace Trabalho1
 
         protected void btnVerificar_Click(object sender, EventArgs e)
         {
-            string sexo;
-            if (ddlSexo.Text == "M")
-            {
-                sexo = "Masculino";
-            }
-            else
-            {
-                sexo = "Feminino";
-            }
+            int /*dia, mes, ano*/ nasc, datatual;
 
-            lblResult.Text = $"Sexo: <b>{sexo}";
+            //dia = Convert.ToInt32(txtDia.Text);
+            //mes = Convert.ToInt32(txtMes.Text);
+            //ano = Convert.ToInt32(txtAno.Text);
+
+            //nasc = {dia} + {mes}, {ano};
+
+            nasc = Convert.ToInt32(txtNascimento.Text);
+
+            datatual = 12042021;
+
+            if (nasc < datatual)
+            {
+                lblResult.Text = "Ainda não tem idade suficiente para tirar o Título de Reservista";
+            }
 
         }
     }

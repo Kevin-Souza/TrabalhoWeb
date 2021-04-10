@@ -25,7 +25,7 @@
                             <a class="nav-item nav-link active" href="Tela1.aspx">Multiplicação <span class="sr-only">(current)</span></a>
                             <a class="nav-item nav-link" href="Tela2.aspx">Nome</a>
                             <a class="nav-item nav-link" href="Tela3.aspx">Nascimento</a>
-                            <a class="nav-item nav-link disabled" href="Tela4.aspx">Média</a>
+                            <a class="nav-item nav-link" href="Tela4.aspx">Média</a>
                         </div>
                     </div>
                 </nav>

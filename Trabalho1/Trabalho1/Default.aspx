@@ -15,7 +15,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <%--container--%>
             <div class="container">
+                <%--NavBar--%>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="Default.aspx">Home</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,22 +28,24 @@
                             <a class="nav-item nav-link active" href="Tela1.aspx">Multiplicação <span class="sr-only">(current)</span></a>
                             <a class="nav-item nav-link" href="Tela2.aspx">Nome</a>
                             <a class="nav-item nav-link" href="Tela3.aspx">Nascimento</a>
-                            <a class="nav-item nav-link disabled" href="Tela4.aspx">Média</a>
+                            <a class="nav-item nav-link" href="Tela4.aspx">Média</a>
                         </div>
                     </div>
                 </nav>
+                <%--NavBar--%>
 
+                <%--Titulo--%>
                 <div class="col-row-12 text-center">
                     <h1>TRABALHO</h1>
                 </div>
-
+                <%--Titulo--%>
 
 
 
 
             </div>
+            <%--Container--%>
         </div>
-        <script src="Scripts/umd/popper.js"></script>
     </form>
 
 </body>

@@ -13,5 +13,21 @@ namespace Trabalho1
         {
 
         }
+
+        protected void btnVerificar_Click(object sender, EventArgs e)
+        {
+            string sexo;
+            if (ddlSexo.Text == "M")
+            {
+                sexo = "Masculino";
+            }
+            else
+            {
+                sexo = "Feminino";
+            }
+
+            lblResult.Text = $"Sexo: <b>{sexo}";
+
+        }
     }
 }

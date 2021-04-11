@@ -16,23 +16,39 @@ namespace Trabalho1
 
         protected void btnVerificar_Click(object sender, EventArgs e)
         {
-            int /*dia, mes, ano*/ nasc, datatual;
+            int nasc, datatual;
+            int dia, mes, ano;
 
-            //dia = Convert.ToInt32(txtDia.Text);
-            //mes = Convert.ToInt32(txtMes.Text);
-            //ano = Convert.ToInt32(txtAno.Text);
+            dia = Convert.ToInt32(txtDia.Text);
+            mes = Convert.ToInt32(txtMes.Text);
+            ano = Convert.ToInt32(txtAno.Text);
 
-            //nasc = {dia} + {mes}, {ano};
+            //nasc = {dia} + {mes} + {ano};
 
-            nasc = Convert.ToInt32(txtNascimento.Text);
+            //nasc = Convert.ToInt32(txtNascimento.Text);
 
-            datatual = 12042021;
+            datatual = 2021;
 
-            if (nasc < datatual)
+
+
+            if (ddlSexo.Text == "F")
             {
-                lblResult.Text = "Ainda não tem idade suficiente para tirar o Título de Reservista";
+                lblMSG.Text = "Dispensada";
             }
-
+            else if (ano < datatual)
+            {
+                if (ddlSexo.Text == "M")
+                {
+                    lblMSG.Text = "Idade Insuficiente";
+                }
+            }
+            else if (ano => datatual)
+            {
+                if (ddlSexo.Text == "M")
+                {
+                    lblReservista.Text = "Cart. Reservista";
+                }
+            }
         }
     }
 }

@@ -16,10 +16,10 @@
             <br />
 
             <%--Data de Nascimento--%>
-            <asp:Label ID="lblNascimento" runat="server" Text="Dt. Nascimento: "></asp:Label>
-            <asp:TextBox ID="txtNascimento" runat="server" placeholder="Digite sem a /"></asp:TextBox>
+            <asp:Label ID="lblDia" runat="server" Text="Dia do Nascimento: "></asp:Label>
+            <asp:TextBox ID="txtDia" runat="server" placeholder="Digite aqui..."></asp:TextBox>
 
-<%--        <br />
+            <br />
             <br />
 
             <asp:Label ID="lblMes" runat="server" Text="Mês do Nascimento: "></asp:Label>
@@ -29,7 +29,7 @@
             <br />
 
             <asp:Label ID="lblAno" runat="server" Text="Ano do Nascimento: "></asp:Label>
-            <asp:TextBox ID="txtAno" runat="server" placeholder="Digite aqui..."></asp:TextBox>--%>
+            <asp:TextBox ID="txtAno" runat="server" placeholder="Digite aqui..."></asp:TextBox>
 
             <br />
             <br />
@@ -37,7 +37,8 @@
             <%--Escolha Sexo--%>
             <asp:Label ID="lblSexo" runat="server" Text="Sexo: "></asp:Label>
             <asp:DropDownList ID="ddlSexo" runat="server">
-                <asp:ListItem Selected="True" Value="F">Feminino</asp:ListItem>
+                <asp:ListItem Value="">Escolha</asp:ListItem>
+                <asp:ListItem Value="F">Feminino</asp:ListItem>
                 <asp:ListItem Value="M">Masculino</asp:ListItem>
             </asp:DropDownList>
 
@@ -46,7 +47,10 @@
 
             <asp:Button ID="btnVerificar" runat="server" Text="Verificar" OnClick="btnVerificar_Click" />
 
-            <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
+            <br />
+            <br />
+
+            <asp:Label ID="lblMSG" runat="server" Text=""></asp:Label>
 
             <br />
             <br />

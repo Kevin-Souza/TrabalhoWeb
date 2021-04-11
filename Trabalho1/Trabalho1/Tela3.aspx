@@ -33,34 +33,51 @@
                     </div>
                 </nav>
                 <%--NavBar--%>
+
+
+                <%--Título--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                    <h2 style="color: red">Alistamento Exército</h2>
+                </div>
+
+                <hr size="10" color="red" />
+
+                <%--Data de Nascimento--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                <asp:Label ID="lblNascimento" runat="server" Text="Dt. Nasc: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvNascimento" ControlToValidate="txtNascimento"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtNascimento" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+                </div>
+
+                <%--Escolha Sexo--%>
+                <div class="col-row-12 text-center" style="padding-top: 10px">
+                <asp:Label ID="lblSexo" runat="server" Text="Sexo: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvSexo" ControlToValidate="ddlSexo"
+                            InitialValue="0" ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:DropDownList ID="ddlSexo" runat="server">
+                    <asp:ListItem Selected="True" Value="0">Selecionar</asp:ListItem>
+                    <asp:ListItem Value="F">Feminino</asp:ListItem>
+                    <asp:ListItem Value="M">Masculino</asp:ListItem>
+                </asp:DropDownList>
+                </div>
+
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                <asp:Button ID="btnVerificar" runat="server" CssClass="btn btn-danger" Text="Verificar" OnClick="btnVerificar_Click" />
+                </div>
+
+                <div class="col-row-12 text-center" style="padding-top: 20px"">
+                <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
+                </div>
+
+                <hr size="10" color="red" />
+
+                <div class="col-row-12 text-right">
+                    <a href="Default.aspx" class="btn btn-danger">< Voltar</a>
+                </div>
+
             </div>
             <%--Container--%>
-
-            <%--Título--%>
-            <h2>Alistamento Exército</h2>
-
-            <br />
-
-            <%--Data de Nascimento--%>
-            <asp:Label ID="lblNascimento" runat="server" Text="Dt. Nasc: "></asp:Label>
-            <asp:TextBox ID="txtNascimento" runat="server" placeholder="Digite aqui..."></asp:TextBox>
-
-            <br />
-            <br />
-
-            <%--Escolha Sexo--%>
-            <asp:Label ID="lblSexo" runat="server" Text="Sexo: "></asp:Label>
-            <asp:DropDownList ID="ddlSexo" runat="server">
-                <asp:ListItem Selected="True" Value="F">Feminino</asp:ListItem>
-                <asp:ListItem Value="M">Masculino</asp:ListItem>
-            </asp:DropDownList>
-
-            <br />
-            <br />
-
-            <asp:Button ID="btnVerificar" runat="server" Text="Verificar" OnClick="btnVerificar_Click" />
-
-            <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>

@@ -33,6 +33,15 @@ namespace Trabalho1
         protected global::System.Web.UI.WebControls.Label lblNascimento;
 
         /// <summary>
+        /// Controle rfvNascimento.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNascimento;
+
+        /// <summary>
         /// Controle txtNascimento.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace Trabalho1
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSexo;
+
+        /// <summary>
+        /// Controle rfvSexo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSexo;
 
         /// <summary>
         /// Controle ddlSexo.

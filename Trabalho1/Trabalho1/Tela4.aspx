@@ -32,34 +32,51 @@
                     </div>
                 </nav>
                 <%--NavBar--%>
+
+
+
+                <%--Título--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                    <h2 style="color: green">Média</h2>
+                </div>
+
+                <hr size="10" color="green" />
+
+                <%--Criar campo da 1ª nota--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                <asp:Label ID="lblValor1" runat="server" Text="Informe a 1ª Nota: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvValor01" ControlToValidate="txtValor1"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtValor1" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+                </div>
+
+                <%--Criar campo da 2ª nota--%>
+                <div class="col-row-12 text-center" style="padding-top: 10px">
+                <asp:Label ID="lblValor2" runat="server" Text="Informe a 2ª Nota: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvValor02" ControlToValidate="txtValor2"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtValor2" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+                </div>
+
+                <%--Criar botão de calcular--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                <asp:Button ID="btnCalcular" runat="server" CssClass="btn btn-success" Text="Calcular" OnClick="btnCalcular_Click" />
+                </div>
+
+                <%--Resultado--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px"">
+                <asp:Label ID="lblMedia" runat="server" Text="Sua média é: "></asp:Label>
+                <asp:Label ID="lblMedia2" runat="server" Text=""></asp:Label>
+                </div>
+
+                <hr size="10" color="green" />
+
+                <div class="col-row-12 text-right">
+                    <a href="Default.aspx" class="btn btn-success">< Voltar</a>
+                </div>
+
             </div>
             <%--Container--%>
-
-            <%--Título--%>
-            <h2>Calcular Média</h2>
-
-            <%--Criar campo da 1ª nota--%>
-            <asp:Label ID="lblValor1" runat="server" Text="Informe a 1ª Nota: "></asp:Label>
-            <asp:TextBox ID="txtValor1" runat="server" placeholder="Digite aqui..."></asp:TextBox>
-            <br />
-            <br />
-
-            <%--Criar campo da 2ª nota--%>
-            <asp:Label ID="lblValor2" runat="server" Text="Informe a 2ª Nota: "></asp:Label>
-            <asp:TextBox ID="txtValor2" runat="server" placeholder="Digite aqui..."></asp:TextBox>
-            <br />
-            <br />
-
-            <%--Criar botão de calcular--%>
-            <asp:Button ID="btnCalcular" runat="server" Text="Calcular" OnClick="btnCalcular_Click" />
-            <br />
-            <br />
-
-            <%--Resultado--%>
-            <asp:Label ID="lblMedia" runat="server" Text="Sua média é: "></asp:Label>
-            <asp:Label ID="lblMedia2" runat="server" Text=""></asp:Label>
-            <br />
-            <br />
         </div>
     </form>
 </body>

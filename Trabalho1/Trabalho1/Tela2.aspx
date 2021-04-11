@@ -32,28 +32,52 @@
                     </div>
                 </nav>
                 <%--NavBar--%>
+
+                <%--Título--%>
+
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                    <h2 style="color: skyblue">Nome</h2>
+                </div>
+
+                <%--Título--%>
+
+                <hr size="10" color="skyblue" />
+
+
+                <%--Nome--%>
+                <div class="col-row-12 text-center" style="padding-top: 10px">
+                <asp:Label ID="lblNome" runat="server" Text="Nome: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvNome" ControlToValidate="txtNome"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtNome" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+                </div>
+
+                <%--Sobrenome--%>
+                <div class="col-row-12 text-center" style="padding-top: 10px">
+                <asp:Label ID="lblSobrenome" runat="server" Text="Sobrenome: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvSobrenome" ControlToValidate="txtSobrenome"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtSobrenome" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+                </div>
+
+                <%--Botão--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px">
+                <asp:Button ID="btnNomecompleto" runat="server" CssClass="btn btn-primary" Text="Nome Completo" />
+                </div>
+
+                <%--Resultado--%>
+                <div class="col-row-12 text-center" style="padding-top: 20px"">
+                <asp:Label ID="lblNomecompleto" runat="server" Text=""></asp:Label>
+                </div>
+
+                <hr size="10" color="skyblue" />
+
+                <div class="col-row-12 text-right">
+                    <a href="Default.aspx" class="btn btn-primary">< Voltar</a>
+                </div>
+
             </div>
             <%--Container--%>
-
-            <%--Nome--%>
-            <asp:Label ID="lblNome" runat="server" Text="Nome: "></asp:Label>
-            <asp:TextBox ID="txtNome" runat="server" placeholder="Digite aqui..."></asp:TextBox>
-
-            <br />
-            <br />
-
-            <%--Sobrenome--%>
-            <asp:Label ID="lblSobrenome" runat="server" Text="Sobrenome: "></asp:Label>
-            <asp:TextBox ID="txtSobrenome" runat="server" placeholder="Digite aqui..."></asp:TextBox>
-
-            <br />
-            <br />
-
-            <asp:Button ID="btnNomecompleto" runat="server" Text="Nome Completo" />
-
-            <br />
-
-            <asp:Label ID="lblNomecompleto" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>

@@ -44,13 +44,12 @@
                 <hr size="10" color="Black" />
 
                 <%--Criar campo da 1º Valor--%>
-                    <div class="col-row-12 text-center" style="padding-top: 20px">
+                    <div class="col-row-8 text-center" style="padding-top: 20px">
                         <asp:Label ID="lblValor1" runat="server" Text="Informe o 1º Valor: "></asp:Label>
                         <asp:RequiredFieldValidator ID="rfvValor1" ControlToValidate="txtValor1"
                             ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
                         <asp:TextBox ID="txtValor1" runat="server" placeholder="Digite aqui..."></asp:TextBox>
                     </div>
-
 
                 <%--Criar campo da 2º Valor--%>
                     <div class="col-row-12 text-center" style="padding-top: 10px">
@@ -66,12 +65,16 @@
                     </div>
 
                 <%--Resultado--%>
-                    <div class="col-row-12" style="padding-top: 20px"">
+                    <div class="col-row-12 text-center" style="padding-top: 20px"">
                         <asp:Label ID="lblMultiplicacao2" runat="server" Text="Resultado: "></asp:Label>
                         <asp:Label ID="lblMultiplicacao" runat="server" Text=""></asp:Label>
                     </div>
 
                 <hr size="10" color="Black" />
+
+                <div class="col-row-12 text-right">
+                    <a href="Default.aspx" class="btn btn-dark">< Voltar</a>
+                </div>
 
             </div>
             <%--Container--%>

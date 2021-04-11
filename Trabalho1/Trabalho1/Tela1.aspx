@@ -41,12 +41,16 @@
 
                 <%--Criar campo da 1º Valor--%>
                 <asp:Label ID="lblValor1" runat="server" Text="Informe o 1º Valor: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvValor1" ControlToValidate="txtValor1"
+                    ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
                 <asp:TextBox ID="txtValor1" runat="server" placeholder="Digite aqui..."></asp:TextBox>
                 <br />
                 <br />
 
                 <%--Criar campo da 2º Valor--%>
                 <asp:Label ID="lblValor2" runat="server" Text="Informe o 2º Valor: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvValor2" ControlToValidate="txtValor2"
+                     ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
                 <asp:TextBox ID="txtValor2" runat="server" placeholder="Digite aqui..."></asp:TextBox>
                 <br />
                 <br />

@@ -40,27 +40,24 @@
                 </div>
                 <%--Titulo--%>
 
+                <%--card--%>
                 <div class="row">
                     <div class="card-deck">
                         <div class="col-sm-3">
                             <div class="card border-dark mb-3" style="max-width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">Multiplicação</h5>
-                                    <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                                    <a href="#" class="btn btn-primary">Visitar</a>
+                                    <p class="card-text">Você preenche dois números e retornamos a multiplicação !</p>
+                                    <a href="Tela1.aspx" class="btn btn-primary">Clique aqui</a>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                         <div class="col-sm-3">
                             <div class="card border-primary mb-3" style="max-width: 18rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Título especial</h5>
-                                    <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                                    <a href="#" class="btn btn-primary">Visitar</a>
+                                    <h5 class="card-title">Nome</h5>
+                                    <p class="card-text">Você preenche o nome e o sobrenome e concatenamos o nome pra você !</p>
+                                    <a href="Tela2.aspx" class="btn btn-primary">Cliqe aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -69,24 +66,24 @@
                         <div class="col-sm-3">
                             <div class="card border-danger mb-3" style="max-width: 18rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Título especial</h5>
-                                    <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                                    <a href="#" class="btn btn-primary">Visitar</a>
+                                    <h5 class="card-title">Idade</h5>
+                                    <p class="card-text">Preencha os dados e lhe informamos se é necessária a carteira de reservista.</p>
+                                    <a href="Tela3.aspx" class="btn btn-primary">Clique aqui</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="card border-success mb-3" style="max-width: 18rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Título especial</h5>
-                                    <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                                    <a href="#" class="btn btn-primary">Visitar</a>
+                                    <h5 class="card-title">Média</h5>
+                                    <p class="card-text">Jeito rápido e fácil de calcular notas.</p>
+                                    <a href="Tela4.aspx" class="btn btn-primary">Clique aqui</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <%--Card--%>
 
             </div>
             <%--Container--%>

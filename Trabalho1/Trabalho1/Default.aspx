@@ -6,6 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Trabalho</title>
+    <link rel="shortcut icon" href="Images/logo.jpeg" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <!-- JAVASCRIPT E JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -35,13 +36,13 @@
                 <%--NavBar--%>
 
                 <%--Titulo--%>
-                <div class="col-row-12 text-center">
+                <div class="col-row-12 text-center" style="padding-top: 20px">
                     <h1>TRABALHO</h1>
                 </div>
                 <%--Titulo--%>
 
                 <%--card--%>
-                <div class="row">
+                <div class="row" style="padding-top: 20px">
                     <div class="card-deck">
                         <div class="col-sm-3">
                             <div class="card border-dark mb-3" style="max-width: 18rem;">

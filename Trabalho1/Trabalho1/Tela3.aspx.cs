@@ -17,32 +17,30 @@ namespace Trabalho1
         protected void btnVerificar_Click(object sender, EventArgs e)
         {
             int nasc, datatual;
-            int dia, mes, ano;
+            //int dia, mes, ano;
 
-            dia = Convert.ToInt32(txtDia.Text);
-            mes = Convert.ToInt32(txtMes.Text);
-            ano = Convert.ToInt32(txtAno.Text);
+            //dia = Convert.ToInt32(txtDia.Text);
+            //mes = Convert.ToInt32(txtMes.Text);
+            //ano = Convert.ToInt32(txtAno.Text);
 
             //nasc = {dia} + {mes} + {ano};
 
-            //nasc = Convert.ToInt32(txtNascimento.Text);
+            nasc = Convert.ToInt32(txtNascimento.Text);
 
-            datatual = 2021;
-
-
+            datatual = 12042021;
 
             if (ddlSexo.Text == "F")
             {
                 lblMSG.Text = "Dispensada";
             }
-            else if (ano < datatual)
+            else if (nasc < datatual)
             {
                 if (ddlSexo.Text == "M")
                 {
                     lblMSG.Text = "Idade Insuficiente";
                 }
             }
-            else if (ano => datatual)
+            else if (nasc >= datatual)
             {
                 if (ddlSexo.Text == "M")
                 {

@@ -16,10 +16,10 @@
             <br />
 
             <%--Data de Nascimento--%>
-            <asp:Label ID="lblDia" runat="server" Text="Dia do Nascimento: "></asp:Label>
-            <asp:TextBox ID="txtDia" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+            <asp:Label ID="lblNascimento" runat="server" Text="Dt. Nascimento: "></asp:Label>
+            <asp:TextBox ID="txtNascimento" runat="server" placeholder="Digite aqui (sem /)..."></asp:TextBox>
 
-            <br />
+<%--            <br />
             <br />
 
             <asp:Label ID="lblMes" runat="server" Text="Mês do Nascimento: "></asp:Label>
@@ -29,7 +29,7 @@
             <br />
 
             <asp:Label ID="lblAno" runat="server" Text="Ano do Nascimento: "></asp:Label>
-            <asp:TextBox ID="txtAno" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+            <asp:TextBox ID="txtAno" runat="server" placeholder="Digite aqui..."></asp:TextBox>--%>
 
             <br />
             <br />

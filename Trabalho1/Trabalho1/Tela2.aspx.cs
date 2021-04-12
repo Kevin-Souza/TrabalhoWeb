@@ -13,5 +13,10 @@ namespace Trabalho1
         {
 
         }
+
+        protected void btnNomecompleto_Click(object sender, EventArgs e)
+        {
+            lblNomecompleto.Text = $"Nome Completo: {txtNome.Text} {txtSobrenome.Text}";
+        }
     }
 }

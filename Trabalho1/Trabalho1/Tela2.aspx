@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <%--Título--%>
+            <h2>Nome Completo</h2>
+
             <%--Nome--%>
             <asp:Label ID="lblNome" runat="server" Text="Nome: "></asp:Label>
             <asp:TextBox ID="txtNome" runat="server" placeholder="Digite aqui..."></asp:TextBox>
@@ -24,7 +27,7 @@
             <br />
             <br />
 
-            <asp:Button ID="btnNomecompleto" runat="server" Text="Nome Completo"/>
+            <asp:Button ID="btnNomecompleto" runat="server" Text="Nome Completo" OnClick="btnNomecompleto_Click"/>
 
             <br />
 

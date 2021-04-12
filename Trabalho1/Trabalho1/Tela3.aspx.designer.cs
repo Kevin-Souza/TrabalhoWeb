@@ -33,6 +33,15 @@ namespace Trabalho1
         protected global::System.Web.UI.WebControls.Label lblDia;
 
         /// <summary>
+        /// Controle rfvNascimento.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNascimento;
+
+        /// <summary>
         /// Controle txtDia.
         /// </summary>
         /// <remarks>
@@ -42,13 +51,13 @@ namespace Trabalho1
         protected global::System.Web.UI.WebControls.TextBox txtDia;
 
         /// <summary>
-        /// Controle lblMes.
+        /// Controle rfvMes.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMes;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMes;
 
         /// <summary>
         /// Controle txtMes.
@@ -60,13 +69,13 @@ namespace Trabalho1
         protected global::System.Web.UI.WebControls.TextBox txtMes;
 
         /// <summary>
-        /// Controle lblAno.
+        /// Controle rfvAno.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAno;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAno;
 
         /// <summary>
         /// Controle txtAno.
@@ -85,6 +94,15 @@ namespace Trabalho1
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSexo;
+
+        /// <summary>
+        /// Controle rfvSexo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSexo;
 
         /// <summary>
         /// Controle ddlSexo.

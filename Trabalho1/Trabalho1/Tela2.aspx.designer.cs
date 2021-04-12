@@ -33,6 +33,15 @@ namespace Trabalho1
         protected global::System.Web.UI.WebControls.Label lblNome;
 
         /// <summary>
+        /// Controle rfvNome.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNome;
+
+        /// <summary>
         /// Controle txtNome.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace Trabalho1
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSobrenome;
+
+        /// <summary>
+        /// Controle rfvSobrenome.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSobrenome;
 
         /// <summary>
         /// Controle txtSobrenome.

@@ -28,17 +28,17 @@ namespace Trabalho1
 
             if (Result < 4)
             {
-                lblMedia2.Text = "<b>Reprovado<b>";
+                lblMedia2.Text = $"<b> {Result} Reprovado<b>";
                 lblMedia2.ForeColor = Color.Red;
             }
             else if (Result >= 4 && Result < 6)
             {
-                lblMedia2.Text = "<b>Exame<b>";
+                lblMedia2.Text = $"<b> {Result} Exame<b>";
                 lblMedia2.ForeColor = Color.Blue;
             }
             else if (Result >= 6)
             {
-                lblMedia2.Text = "<b>Aprovado<b>";
+                lblMedia2.Text = $"<b> {Result} Aprovado<b>";
                 lblMedia2.ForeColor = Color.Green;
             }
         }

@@ -44,10 +44,18 @@
 
                 <%--Data de Nascimento--%>
                 <div class="col-row-12 text-center" style="padding-top: 20px">
-                <asp:Label ID="lblNascimento" runat="server" Text="Dt. Nasc: "></asp:Label>
-                <asp:RequiredFieldValidator ID="rfvNascimento" ControlToValidate="txtNascimento"
+                <asp:Label ID="lblDia" runat="server" Text="Dt. Nasc: "></asp:Label>
+                <asp:RequiredFieldValidator ID="rfvNascimento" ControlToValidate="txtDia"
                             ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
-                <asp:TextBox ID="txtNascimento" runat="server" placeholder="Digite aqui..."></asp:TextBox>
+                <asp:TextBox ID="txtDia" runat="server" placeholder="DD" MaxLength="2" Width="30px"></asp:TextBox>
+                <label>/</label>
+                <asp:RequiredFieldValidator ID="rfvMes" ControlToValidate="txtMes"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtMes" runat="server" placeholder="MM" MaxLength="2" Width="38px"></asp:TextBox>
+                <label>/</label>
+                <asp:RequiredFieldValidator ID="rfvAno" ControlToValidate="txtAno"
+                            ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtAno" runat="server" placeholder="AAAA" MaxLength="4" Width="50px"></asp:TextBox>
                 </div>
 
                 <%--Escolha Sexo--%>

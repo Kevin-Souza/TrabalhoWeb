@@ -78,13 +78,13 @@ namespace Trabalho1
         protected global::System.Web.UI.WebControls.TextBox txtValor2;
 
         /// <summary>
-        /// Controle btnCalcular.
+        /// Controle BtnCalcular.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalcular;
+        protected global::System.Web.UI.WebControls.Button BtnCalcular;
 
         /// <summary>
         /// Controle lblMedia.

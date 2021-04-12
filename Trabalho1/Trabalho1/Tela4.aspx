@@ -60,7 +60,7 @@
 
                 <%--Criar botão de calcular--%>
                 <div class="col-row-12 text-center" style="padding-top: 20px">
-                <asp:Button ID="btnCalcular" runat="server" CssClass="btn btn-success" Text="Calcular" OnClick="btnCalcular_Click" />
+                <asp:Button ID="BtnCalcular" runat="server" CssClass="btn btn-success" Text="Calcular" OnClick="BtnCalcular_Click" />
                 </div>
 
                 <%--Resultado--%>

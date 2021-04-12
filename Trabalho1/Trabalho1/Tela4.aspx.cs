@@ -15,7 +15,7 @@ namespace Trabalho1
 
         }
 
-        protected void btnCalcular_Click(object sender, EventArgs e)
+        protected void BtnCalcular_Click(object sender, EventArgs e)
         {
             lblMedia2.ForeColor = Color.Black;
             double N1, N2, Result;

@@ -62,7 +62,7 @@
 
                 <%--Botão--%>
                 <div class="col-row-12 text-center" style="padding-top: 20px">
-                <asp:Button ID="btnNomecompleto" runat="server" CssClass="btn btn-primary" Text="Nome Completo" />
+                <asp:Button ID="btnNomecompleto" runat="server" CssClass="btn btn-primary" Text="Nome Completo" OnClick="btnNomecompleto_Click" />
                 </div>
 
                 <%--Resultado--%>

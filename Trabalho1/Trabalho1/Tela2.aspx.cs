@@ -18,5 +18,6 @@ namespace Trabalho1
         {
             lblNomecompleto.Text = $"Nome Completo: {txtNome.Text} {txtSobrenome.Text}";
         }
+
     }
 }

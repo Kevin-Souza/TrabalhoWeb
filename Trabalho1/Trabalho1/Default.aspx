@@ -58,7 +58,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Nome</h5>
                                     <p class="card-text">Você preenche o nome e o sobrenome e concatenamos o nome pra você !</p>
-                                    <a href="Tela2.aspx" class="btn btn-primary">Cliqe aqui</a>
+                                    <a href="Tela2.aspx" class="btn btn-primary">Clique aqui</a>
                                 </div>
                             </div>
                         </div>
